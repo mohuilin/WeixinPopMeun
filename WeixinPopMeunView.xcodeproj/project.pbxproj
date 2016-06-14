@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B2E63E1D0EAE09000572E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E63D1D0EAE09000572E7 /* main.m */; };
+		D9B2E6411D0EAE09000572E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E6401D0EAE09000572E7 /* AppDelegate.m */; };
+		D9B2E6441D0EAE09000572E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E6431D0EAE09000572E7 /* ViewController.m */; };
+		D9B2E6471D0EAE09000572E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E6451D0EAE09000572E7 /* Main.storyboard */; };
+		D9B2E6491D0EAE09000572E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E6481D0EAE09000572E7 /* Assets.xcassets */; };
+		D9B2E64C1D0EAE09000572E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B2E64A1D0EAE09000572E7 /* LaunchScreen.storyboard */; };
+		D9B2E6551D0EAE28000572E7 /* PopMeunView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B2E6541D0EAE28000572E7 /* PopMeunView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9B2E6391D0EAE09000572E7 /* WeixinPopMeunView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeixinPopMeunView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B2E63D1D0EAE09000572E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B2E63F1D0EAE09000572E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9B2E6401D0EAE09000572E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9B2E6421D0EAE09000572E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9B2E6431D0EAE09000572E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9B2E6461D0EAE09000572E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9B2E6481D0EAE09000572E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9B2E64B1D0EAE09000572E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9B2E64D1D0EAE09000572E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B2E6531D0EAE28000572E7 /* PopMeunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMeunView.h; sourceTree = "<group>"; };
+		D9B2E6541D0EAE28000572E7 /* PopMeunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMeunView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B2E6361D0EAE09000572E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B2E6301D0EAE09000572E7 = {
+			isa = PBXGroup;
+			children = (
+				D9B2E63B1D0EAE09000572E7 /* WeixinPopMeunView */,
+				D9B2E63A1D0EAE09000572E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B2E63A1D0EAE09000572E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E6391D0EAE09000572E7 /* WeixinPopMeunView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B2E63B1D0EAE09000572E7 /* WeixinPopMeunView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E63F1D0EAE09000572E7 /* AppDelegate.h */,
+				D9B2E6401D0EAE09000572E7 /* AppDelegate.m */,
+				D9B2E6421D0EAE09000572E7 /* ViewController.h */,
+				D9B2E6431D0EAE09000572E7 /* ViewController.m */,
+				D9B2E6451D0EAE09000572E7 /* Main.storyboard */,
+				D9B2E6481D0EAE09000572E7 /* Assets.xcassets */,
+				D9B2E64A1D0EAE09000572E7 /* LaunchScreen.storyboard */,
+				D9B2E64D1D0EAE09000572E7 /* Info.plist */,
+				D9B2E63C1D0EAE09000572E7 /* Supporting Files */,
+				D9B2E6531D0EAE28000572E7 /* PopMeunView.h */,
+				D9B2E6541D0EAE28000572E7 /* PopMeunView.m */,
+			);
+			path = WeixinPopMeunView;
+			sourceTree = "<group>";
+		};
+		D9B2E63C1D0EAE09000572E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2E63D1D0EAE09000572E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B2E6381D0EAE09000572E7 /* WeixinPopMeunView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B2E6501D0EAE09000572E7 /* Build configuration list for PBXNativeTarget "WeixinPopMeunView" */;
+			buildPhases = (
+				D9B2E6351D0EAE09000572E7 /* Sources */,
+				D9B2E6361D0EAE09000572E7 /* Frameworks */,
+				D9B2E6371D0EAE09000572E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeixinPopMeunView;
+			productName = WeixinPopMeunView;
+			productReference = D9B2E6391D0EAE09000572E7 /* WeixinPopMeunView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B2E6311D0EAE09000572E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bitmian;
+				TargetAttributes = {
+					D9B2E6381D0EAE09000572E7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D9B2E6341D0EAE09000572E7 /* Build configuration list for PBXProject "WeixinPopMeunView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B2E6301D0EAE09000572E7;
+			productRefGroup = D9B2E63A1D0EAE09000572E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B2E6381D0EAE09000572E7 /* WeixinPopMeunView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B2E6371D0EAE09000572E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2E64C1D0EAE09000572E7 /* LaunchScreen.storyboard in Resources */,
+				D9B2E6491D0EAE09000572E7 /* Assets.xcassets in Resources */,
+				D9B2E6471D0EAE09000572E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B2E6351D0EAE09000572E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B2E6441D0EAE09000572E7 /* ViewController.m in Sources */,
+				D9B2E6411D0EAE09000572E7 /* AppDelegate.m in Sources */,
+				D9B2E63E1D0EAE09000572E7 /* main.m in Sources */,
+				D9B2E6551D0EAE28000572E7 /* PopMeunView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B2E6451D0EAE09000572E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B2E6461D0EAE09000572E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9B2E64A1D0EAE09000572E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B2E64B1D0EAE09000572E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B2E64E1D0EAE09000572E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9B2E64F1D0EAE09000572E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B2E6511D0EAE09000572E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeixinPopMeunView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmain.WeixinPopMeunView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9B2E6521D0EAE09000572E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeixinPopMeunView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitmain.WeixinPopMeunView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B2E6341D0EAE09000572E7 /* Build configuration list for PBXProject "WeixinPopMeunView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B2E64E1D0EAE09000572E7 /* Debug */,
+				D9B2E64F1D0EAE09000572E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B2E6501D0EAE09000572E7 /* Build configuration list for PBXNativeTarget "WeixinPopMeunView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B2E6511D0EAE09000572E7 /* Debug */,
+				D9B2E6521D0EAE09000572E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B2E6311D0EAE09000572E7 /* Project object */;
+}
