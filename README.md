@@ -6,7 +6,7 @@
 
 Screenshots
 ---------
-![Toast Screenshots](toast_screenshot.jpg)
+![Meun Screenshots](meun_screenshot.png)
 
 
 Basic Examples
@@ -21,5 +21,16 @@ PopMeunView *popView = [[PopMeunView alloc] initWithOrigin:sender.center width:1
     popView.delegate = self;
     
     [popView popView];
+
+```
+
+Delegate
+```objc
+
+#pragma mark - PopMeunViewDelegate
+
+- (void)selectIndex:(NSInteger)index{
+    NSLog(@"%ld",(long)index);
+}
 
 ```
